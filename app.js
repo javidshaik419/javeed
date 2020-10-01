@@ -9,8 +9,10 @@ app.set("view engine","ejs")
 
 app.get('/',function(req,res){
     res.render("html")
-})
 
+    
+})
+  
   
 const port=5000
 
